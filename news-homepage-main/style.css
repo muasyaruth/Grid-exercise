@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.content{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    height: 80vh;
+    width: 80vw;
+}
+.black{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+}
+.black > p{
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+.readmore{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.retcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.revive{
+    display: flex;
+    grid-column: 3 span;
+    grid-row: 1 span;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.tops{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.gaming{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.flex{
+    grid-column: 3 span;
+    grid-row: 1 span;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.grid1{
+    grid-column: 2 span;
+    grid-row: 1 span;
+}
+.paras > h1{
+    font-size: 3rem;
+    color: var(--Very-dark-blue);
+    width: 300px;
+}
+.paras{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
